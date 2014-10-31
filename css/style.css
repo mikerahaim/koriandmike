@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2014, 3:38:27 PM
+    Author     : Mike
+*/
+
+/******************************************************************************/
+/******************************** GLOBAL **************************************/
+/******************************************************************************/
+@import url(nav.css);
+
+html {width:100%;}
+body {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:100%;
+        color:#000;
+        min-width:1000px;
+        background:#f8f8f8;
+}
+
+.main {
+	width:1000px; 	
+	padding:0;
+	margin:0 auto;
+	font-size:14px;
+	line-height:25px;
+} 
+
+a {color:#f00058; outline:none;}
+a:hover {text-decoration:none;}
+
+.wrapper {
+        width:100%; 
+        overflow:visible;
+}
+
+/******************************************************************************/
+/******************************** HEADERS *************************************/
+/******************************************************************************/
+header {
+	width:100%;
+	position:relative; 
+	z-index:2;
+}
+
+h1 {
+	padding:36px 0 0 22px; /* Top, left, bottom, right */
+	position:relative;
+	overflow:hidden;
+	margin-bottom:27px;
+}
+h1 img {
+        display:block;
+        width:227px; /* KM_logo width */
+        height:100px; /* KM_logo height */
+        text-indent:-9999em;
+        float:left;
+        margin-right:10px;
+        margin-left: 20px;
+}
+h1 em {
+        display:inline-block;
+        font-family: 'PT Sans', sans-serif;
+        font-size:16px;
+        font-weight:400;
+        line-height:2em;
+        color:#888;
+        text-transform:uppercase;
+        padding-top:41px;
+}
+

@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2014, 11:20:26 PM
+    Author     : Mike
+*/
+
+/******************************************************************************/
+/******************************* NAV MENU *************************************/
+/******************************************************************************/
+.nav-back {
+	width:100%;
+	padding:1px 0 65px 0; /* Top, left, bottom, right */
+	background:url(../images/header/nav-back.png) center top repeat-x;
+}
+
+.topnav {
+        background:url(../images/header/spacer.gif) left top no-repeat; 
+        overflow:hidden;
+        width:100%; 
+}
+
+.topnav li {
+	float:left; 
+	position:relative;
+	background:url(../images/header/spacer.gif) right top no-repeat;
+}
+
+.topnav li:hover{
+        position:static;
+}
+
+.topnav li a {
+	display:block; 
+	height:60px;
+	overflow:hidden;
+	font-family: 'PT Sans', sans-serif;
+	font-size:17px; 
+	font-weight:400;
+	line-height:60px; 
+	padding:0 35px; 
+	color:#fff; 
+	text-transform:uppercase; 
+        text-decoration:none;
+}
+
+.topnav li.active a,
+.topnav li a:hover {
+        background:url(../images/header/active-tail.gif) 0 0 repeat-x #f00058;
+}
+
+.topnav li ul{
+        position:absolute;
+        left:auto;
+}
+
+.topnav li li{
+        float:none;
+        background:url(../images/header/nav-back2.png) center top repeat-x;
+}
+
+.topnav li li a {
+	height:50px;
+	overflow:hidden;
+	font-size:15px; 
+	line-height:50px; 
+	color:#fff; 
+}
+
+
+
