@@ -74,7 +74,7 @@ h1 em {
 }
 
 /******************************************************************************/
-/******************************** SLIDESHOW *************************************/
+/******************************** SLIDESHOW ***********************************/
 /******************************************************************************/
 .photo-block {
 	padding: 10px 0 0 60px; /* Top, right, bottom, left */
@@ -88,7 +88,114 @@ h1 em {
 	overflow:hidden;
 }
 
-.photo {
-	width:746px;
-	height:448px;
+/* from http://www.menucool.com */
+
+#photo-frame, #photo-frame div {
+        box-sizing: content-box;
+}
+
+#photo-frame {
+        position:relative;
+        width:736px;
+        margin: 0 0 10px 0;
+}
+
+#photo-slider, #photo-slider div.sliderInner {
+        width:736px;height:448px; /* Size of the images */
+        border-radius: 4px; /* Radius of curvature */
+}
+
+#photo-slider {
+	background:#fff url(images/Home/loading.gif) no-repeat 50% 50%;
+	position:relative;
+        transform: translate3d(0,0,0);
+        box-shadow: 0px 1px 5px #999999;
+}
+
+/* Bullet Wrapper */
+#photo-slider div.navBulletsWrapper  {
+	top:480px;/* Its position is relative to the #photo-slider */
+	text-align:center;
+	background:none;
+	font-size:0; 
+	position:relative;
+	z-index:5;
+}
+
+/* Individual bullets */
+#photo-slider div.navBulletsWrapper div 
+{
+        width:9px; height:9px;
+        border:1px solid #AAA;
+        background:#EEE;
+        color:#AAA;
+        font-size:0;
+        text-align:center;
+        display:inline-block; *display:inline; zoom:1;
+        overflow:hidden;cursor:pointer;
+        margin:0 9px;/* set distance between each bullet*/
+        border-radius:50%;
+        box-shadow:inset 0 0 4px #AAA;
+}
+
+#photo-slider div.navBulletsWrapper div.active {
+        box-shadow:inset 0 0 0 #AAA;
+        border-color:#f00058;
+        background:#f00058;
+        color:White;
+}
+
+/* --------- Others ------- */
+#photo-slider img, #photo-slider>b, #photo-slider a>b {
+	position:absolute; border:none; display:none;
+}
+
+#photo-slider div.sliderInner {
+	overflow:hidden; 
+	-webkit-transform: rotate(0.000001deg);/* fixed the Chrome not crop border-radius bug*/
+	position:absolute; top:0; left:0;
+}
+
+#photo-slider>a {display:none;}
+
+
+﻿/*Tooltip component by www.menucool.com */
+
+/*For tooltip target element that has set class="tooltip" */
+.tooltip {text-decoration: none; border-bottom:1px dotted #36c;color: #36c; outline: none; }
+
+/*For tooltip box*/
+div#mcTooltip 
+{
+    line-height:16px;
+    border-width: 1px;   
+    color:#eee; 
+    border-color:transparent;
+    padding:5px;
+    font-size: 12px;
+    font-family: Verdana, Arial;
+    border-radius:2px; /*Rounded corners. N/A for IE 8 and below.*/
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: none;
+}
+
+/*Close button. Available when sticky or overlay has been set to true, or is on iPhone, iPad, Android, BlackBerry, or IEMobile devices. */
+div#mcttCloseButton 
+{
+    width:14px;height:14px;position:absolute;background-image:url(images/Home/closeBtn.gif);cursor:pointer; overflow:hidden;
+    top:12px; right:12px; left:auto;
+}            
+
+/*The settings below should remain unchanged*/
+div#mcTooltipWrapper {position:absolute;visibility:hidden;overflow:visible;z-index:9999999999;top:0px;}
+div#mcTooltip {float:left;border-style:solid;position:relative;overflow:hidden;}
+div.mcTooltipInner {float:left;position:relative;width:auto;height:auto;}
+div#mcttCo {position:absolute;text-align:left;}
+div#mcttCo em, div#mcttCo b {display:block; width:0; height:0;overflow:hidden;}
+
+/*workable with bootstrap*/
+div#mcTooltip, div#mcTooltip div {
+     -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+     box-sizing:content-box;
 }
