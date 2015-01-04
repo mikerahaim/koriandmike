@@ -27,8 +27,13 @@ body {
 	padding:0;
 	margin:0 auto;
 	font-size:14px;
-	line-height:25px;
+	line-height:20px;
+        text-align:justify;
 } 
+
+.main p {
+        margin-bottom: 24px;
+}
 
 a {color:#f00058; outline:none;}
 a:hover {text-decoration:none;}
@@ -51,12 +56,12 @@ h1 {
 	padding:36px 0 0 22px; /* Top, left, bottom, right */
 	position:relative;
 	overflow:hidden;
-	margin-bottom:27px;
+	margin-bottom:20px;
 }
 h1 img {
         display:block;
         width:227px; /* KM_logo width */
-        height:100px; /* KM_logo height */
+        height:70px; /* KM_logo height */
         text-indent:-9999em;
         float:left;
         margin-right:10px;
@@ -70,34 +75,105 @@ h1 em {
         line-height:2em;
         color:#888;
         text-transform:uppercase;
-        padding-top:41px;
+        padding-top:26px;
 }
+
+h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size:35px; 
+	font-weight:700;
+	line-height:0.8em; 
+	color:#000;
+	margin-bottom:15px;
+	letter-spacing:-1px;
+        text-align: center;
+}
+
+#content h3 {
+	font-family: 'PT Sans', sans-serif;
+	font-size:25px; 
+	font-weight:700;
+	line-height:0.8em; 
+	color:#000;
+        margin-top: 5px;
+	margin-bottom:15px;
+	letter-spacing:-1px;
+        text-align: center;
+}
+
+#content h4 {
+	font-family: 'PT Sans', sans-serif;
+	font-size:14px; 
+	font-weight:700;
+	line-height:0.8em; 
+	color:#000;
+        margin-top: 5px;
+	margin-bottom:15px;
+	letter-spacing:-1px;
+        text-align: center;
+}
+/******************************************************************************/
+/******************************** CONTENT *************************************/
+/******************************************************************************/
+#content {
+	width:100%; 
+	padding:5px 0 30px;
+	background:#fff;
+	position:relative;
+	z-index:1;
+}
+
+IMG.cast_photo {
+        margin-left: 55px;
+        margin-right: auto;
+        margin-bottom: 10px;
+}
+
+/******************************************************************************/
+/********************************* FOOTER *************************************/
+/******************************************************************************/
+footer {
+	width:100%; 
+	padding:40px 0 50px;
+        border-style: ridge;
+//	background:url(../images/footer/footer-tail.gif) center top repeat-x;
+        background-color:lavenderblush
+}
+
+.footer-text {
+	display:block;
+	text-align:center;
+	padding-right:43px;
+        font-size: 18px;
+}
+
+.footer-text span {display:block;}
+
 
 /******************************************************************************/
 /******************************** SLIDESHOW ***********************************/
 /******************************************************************************/
 .photo-block {
-	padding: 10px 0 0 60px; /* Top, right, bottom, left */
+	padding: 10px 0 0 105px; /* Top, right, bottom, left */
 }
 
 .photo-wrapper {
 	width:762px;
 	height:498px;
-	padding:42px 0 0 26px; /* Top, left, bottom, right */
+	padding:42px 0 0 26px; /* Top, right, bottom, left */
 	background:url(../images/Home/slider-bg.png) 0 0 no-repeat;
 	overflow:hidden;
 }
 
-/* from http://www.menucool.com */
-
-#photo-frame, #photo-frame div {
+#photo-frame, 
+#photo-frame div {
         box-sizing: content-box;
 }
 
 #photo-frame {
         position:relative;
         width:736px;
-        margin: 0 0 10px 0;
+        margin: 0 0 5px 0;
 }
 
 @-webkit-keyframes cf4FadeInOut {

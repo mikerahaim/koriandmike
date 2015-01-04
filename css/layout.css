@@ -14,10 +14,159 @@ and open the template in the editor.
 	width: 980px;
 }
 
+.container_2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+        padding-bottom: 525px;
+}
+
+.container_cast {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/* Bride and Groom */
+.container_cast_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 720px;
+}
+
+/* Bridesmaids */
+.container_cast_2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 1950px;
+}
+
+/* Groomsmen */
+.container_cast_3 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 1400px;
+}
+
+/* Ushers */
+.container_cast_4 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 900px;
+}
+
+.container_links_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+        padding-bottom: 100px;
+}
+
+.container_party_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+        padding-bottom: 100px;
+}
+
+.container_wedding_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+        padding-bottom: 100px;
+}
+
 .grid_1 {
 	display:inline;
 	float: left;
 	position: relative;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.grid_2 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 25px;
+	margin-right: 17px;
+        width: 271px;
+}
+
+.grid_3 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 17px;
+	margin-right: 25px;
+        width: 620px;
+}
+
+.grid_4 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+        width: 950px;
+}
+
+.grid_cast_2l,
+.grid_cast_2r {
+    	display:inline;
+	float: left;
+	position: relative;
+}
+
+.grid_cast_2l {
+	margin-left: 45px;
+	margin-right: 15px;
+        width: 410px;
+        padding: 10px 0px;
+}
+
+.grid_cast_2r {
+	margin-left: 15px;
+	margin-right: 45px;
+        width: 410px;
+        padding: 10px 0px;
+}
+
+.grid_cast_member,
+.grid_cast_photo_bg,
+.grid_cast_photo,
+.grid_cast_text {
+    	display:inline;
+	float: left;
+	position: relative;
+}
+.grid_cast_member {
+	margin-left: 0px;
+	margin-right: 0px;
+        margin-bottom: 25px;
+        width: 940px;
+}
+
+.grid_cast_photo_bg {
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 15px;
+        width: 250px;
+}
+
+.grid_cast_photo {
+	margin-left: auto;
+	margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 300px;
+}
+.grid_cast_text {
+	margin-left: 0px;
+	margin-right: 10px;
+        width: 580px;
 }
