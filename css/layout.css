@@ -24,7 +24,7 @@ and open the template in the editor.
 .container_cast {
 	margin-left: auto;
 	margin-right: auto;
-	width: 960px;
+	width: 980px;
 }
 
 /* Bride and Groom */
@@ -32,7 +32,7 @@ and open the template in the editor.
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
-        padding-bottom: 720px;
+        padding-bottom: 690px;
 }
 
 /* Bridesmaids */
@@ -59,7 +59,47 @@ and open the template in the editor.
         padding-bottom: 900px;
 }
 
-.container_links_1 {
+.container_wedding {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+        padding-bottom: 100px;
+}
+
+/* Ceremony */
+.container_wedding_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;    
+        padding-bottom: 60px;
+}
+
+/* Reception */
+.container_wedding_2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;    
+        padding-bottom: 60px;
+}
+
+/* */
+.container_wedding_3 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;    
+        padding-bottom: 60px;
+}
+
+/* */
+.container_wedding_4 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;    
+        padding-bottom: 60px;
+}
+
+
+.container_party {
 	margin-left: auto;
 	margin-right: auto;
 	width: 980px;
@@ -69,15 +109,42 @@ and open the template in the editor.
 .container_party_1 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 980px;
-        padding-bottom: 100px;
+	width: 960px;
+        padding-bottom: 60px;
 }
 
-.container_wedding_1 {
+.container_party_2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 60px;
+}
+
+.container_links {
 	margin-left: auto;
 	margin-right: auto;
 	width: 980px;
         padding-bottom: 100px;
+}
+
+.container_links_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 60px;
+}
+.container_links_2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 60px;
+}
+
+.container_links_3 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 60px;
 }
 
 .grid_1 {
@@ -169,4 +236,36 @@ and open the template in the editor.
 	margin-left: 0px;
 	margin-right: 10px;
         width: 580px;
+}
+
+.grid_wedding_1_1,
+.grid_wedding_photo_l,
+.grid_wedding_photo_r,
+.grid_wedding_photo_text {
+    	display:inline;
+	float: left;
+	position: relative;
+}
+
+.grid_wedding_1_1 {
+	margin-left: auto;
+	margin-right: auto;
+        margin-bottom: 25px;
+        width: 960px;
+}
+
+.grid_wedding_photo_l {
+	margin-left: 170px;
+	margin-right: 0px;
+        width: 150px;        
+}
+.grid_wedding_photo_r {
+	margin-left: 0px;
+	margin-right: 170px;
+        width: 150px;
+}
+.grid_wedding_photo_text {
+	margin-left: 10px;
+	margin-right: 10px;
+        width: 300px;
 }
