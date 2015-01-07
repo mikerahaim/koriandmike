@@ -120,6 +120,13 @@ and open the template in the editor.
         padding-bottom: 60px;
 }
 
+.container_party_3 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+        padding-bottom: 60px;
+}
+
 .container_links {
 	margin-left: auto;
 	margin-right: auto;
@@ -239,6 +246,8 @@ and open the template in the editor.
 }
 
 .grid_wedding_1_1,
+.grid_wedding_1_2,
+.grid_wedding_1_3,
 .grid_wedding_photo_l,
 .grid_wedding_photo_r,
 .grid_wedding_photo_text {
@@ -252,6 +261,20 @@ and open the template in the editor.
 	margin-right: auto;
         margin-bottom: 25px;
         width: 960px;
+}
+
+.grid_wedding_1_2 {
+	margin-left: 90px;
+	margin-right: 90px;
+        margin-bottom: 25px;
+        width: 780px;
+}
+
+.grid_wedding_1_3 {
+	margin-left: 150px;
+	margin-right: 150px;
+        margin-bottom: 25px;
+        width: 660px;
 }
 
 .grid_wedding_photo_l {
