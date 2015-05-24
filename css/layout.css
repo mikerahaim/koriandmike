@@ -128,7 +128,7 @@ and open the template in the editor.
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
-        padding-bottom: 300px;
+        padding-bottom: 350px;
 //        border-width:5px;
 //        border-style: ridge;
 }
@@ -299,6 +299,11 @@ and open the template in the editor.
         width: 300px;
 }
 
+.grid_party_1_1,
+.grid_party_1_2,
+.grid_party_photo_l,
+.grid_party_photo_r,
+.grid_party_photo_text,
 .grid_party_3_1,
 .grid_party_3_2 {
     	display:inline;
@@ -306,17 +311,92 @@ and open the template in the editor.
 	position: relative;
 }
 
-.grid_party_3_1 {
-	margin-left: 320px;
-	margin-right: 320px;
-        margin-top: 25px;
+.grid_party_1_1 {
+	margin-left: auto;
+	margin-right: auto;
         margin-bottom: 25px;
-        width: 320px;    
+        width: 960px;
+}
+
+.grid_party_1_2 {
+	margin-left: 90px;
+	margin-right: 90px;
+        margin-bottom: 0px;
+        width: 780px;
+}
+
+.grid_party_photo_l {
+	margin-left: 147px;
+	margin-right: 0px;
+        width: 133px;        
+}
+.grid_party_photo_r {
+	margin-left: 0px;
+	margin-right: 147px;
+        width: 133px;
+}
+
+.grid_party_photo_text {
+	margin-left: 30px;
+	margin-right: 30px;
+        margin-top: 10px;
+        width: 340px;
+}
+
+.grid_party_3_1 {
+	margin-left: 240px;
+	margin-right: 240px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        width: 480px;    
 }
 
 .grid_party_3_2 {
 	margin-left: 150px;
 	margin-right: 150px;
-        margin-bottom: 25px;
+//        margin-bottom: 25px;
         width: 660px;
+}
+
+.grid_links_2_1,
+.grid_links_2_2,
+.grid_links_photo_l,
+.grid_links_photo_r,
+.grid_links_photo_text {
+    	display:inline;
+	float: left;
+	position: relative;
+}
+
+.grid_links_2_1 {
+	margin-left: 150px;
+	margin-right: 150px;
+        margin-bottom: 0px;
+        width: 660px;
+}
+
+.grid_links_2_2 {
+	margin-left: auto;
+	margin-right: auto;
+        margin-bottom: 25px;
+        width: 960px;
+}
+
+.grid_links_photo_l {
+	margin-left: 160px;
+	margin-right: 0px;
+        margin-top: 0px;
+        width: 120px;        
+}
+.grid_links_photo_r {
+	margin-left: 0px;
+	margin-right: 160px;
+        width: 120px;
+}
+
+.grid_links_photo_text {
+	margin-left: 30px;
+	margin-right: 30px;
+        margin-top: 20px;
+        width: 340px;
 }
